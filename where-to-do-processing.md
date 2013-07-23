@@ -3,14 +3,15 @@
 ## Client Side
 
 * Generate cypher statements client side and stream them to the server
-+ Can use [transactional API](http://docs.neo4j.org/chunked/preview/rest-api-transactional.html) to process those cypher queries 
+* Seems like it would at least make sense to do some validation of the file client side before sending to the server
 
++ Can use [transactional API](http://docs.neo4j.org/chunked/preview/rest-api-transactional.html) to process those cypher queries 
 
 ## Server Side
 
 * Create new end point that takes CSV files as input and then convert those into nodes/relationships in the database
 
-+ Security around uploading files
+- Security around uploading files
 	* Virus scanning server side
 - Need to make changes in two places - can't just write a standalone tool and have it work with an existing installation
 
