@@ -17,7 +17,23 @@
 
 ## To spike
 
-* Application that takes in 2 files and 
+* Application that takes in 2 CSV files and imports nodes/relationships from those files
+* Application that takes in multiple nodes/relationship CSV files and imports nodes/relationships from those files
+
+File format would be like this:
+
+nodes.tsv
+
+Property1	Property2	Property3
+Person1
+Person2
+
+relationships.tsv
+
+ExternalId1	ExternalId2	RelationshipType
+
+
+
 
 ## Future Requirements
 
