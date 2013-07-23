@@ -24,3 +24,5 @@
 	* you put files somewhere that the server has access 
 * [mongoimport](http://docs.mongodb.org/manual/reference/program/mongoimport/)
 	* processes client side and then sends a compressed version of the JSON file from what I can tell
+* [Solr](http://stackoverflow.com/questions/9449185/solr-best-approach-to-import-20-million-documents-from-csv-file) doesn't seem to have anything built in for handling files so you have to do a mapping to Solr document format before interacting with the API.
+* [HBase's importtsv](http://hbase.apache.org/book/ops_mgt.html#importtsv) tool creates Hadoop Map/Reduce jobs which refer to a path on disk but I think they run locally - didn't see the TSV file being streamed across the ports Hive listens on at least. Some wiring up is done on the client before creating the Map/Reduce job.
