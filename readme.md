@@ -4,8 +4,7 @@
 ## Approaches that exist for importing data
 
 
-* [Batch Inserter](http://docs.neo4j.org/chunked/milestone/batchinsert.html
-)
+* [Batch Inserter](http://docs.neo4j.org/chunked/milestone/batchinsert.html)
 * [CSV Batch Importer](https://github.com/jexp/batch-import)
 * [REST API Batch operations](http://docs.neo4j.org/chunked/stable/rest-api-batch-ops.html)
 * [Transactional API]()

@@ -14,3 +14,14 @@
 
 * Focus on small to medium data sets first (with transactional operation)
 *  Don't (for now) take on the problem of data *export* from a non-Neo4j data source. Assume the data is already in the given format
+
+## To spike
+
+* Application that takes in 2 files and 
+
+## Future Requirements
+
+* Add the ability to connect data being loaded into existing graph
+* Consider cypher as a way of declaring how the data should be loaded
+* Specify an index ahead of time
+* Wire into the batch inserter for loading of large amounts of data
